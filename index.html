@@ -10,7 +10,7 @@
 </head>
 
 <body class="lato">
-    <header class="montserrat">
+    <header class="montserrat align-items">
         <div class="header-logo bold">
             <a href="index.html">Pink <span class="goose">Goose</span></a>
         </div>
@@ -23,14 +23,14 @@
         </div>
 
         <div class="header-login medium">
-            <div class="login-button">
+            <div class="login-button align-items">
                 <a href="login.html">Login</a>
             </div>
         </div>
     </header>
 
-    <main>
-        <section class="section-one">
+    <main class="flex-column align-items">
+        <section class="section-one flex-column align-items">
             <div class="section-one-title lato bold text-align">
                 The easiest way to start a Goose
             </div>
@@ -39,7 +39,7 @@
                 An all-in-one platform to start, manage and grow a decentralized autonomous organization
             </div>
 
-            <div class="button-get-started montserrat bold text-align">
+            <div class="button-get-started align-items montserrat bold text-align">
                 Get started
             </div>
         </section>
@@ -48,7 +48,7 @@
             <img src="assets/icon/arrows-down.png" alt="arrow-down">
         </div>
 
-        <section class="section-two" id="learn">
+        <section class="section-two flex-column" id="learn">
             <div class="section-two-title-bar">
                 <div class="title-img">
                     <img src="assets/icon/three-stars.png" alt="three-stars">
@@ -61,45 +61,46 @@
                 <div class="img-title-spacer"></div>
             </div>
 
-            <div class="dao-tags montserrat semibold">
-                <div class="dao-tags-line-one">
-                    <div class="dao-tag-style" style="color: #FFB4D3;">Investment DAO</div>
-                    <div class="dao-tag-style" style="color: #FFC24C;">Startup DAO</div>
-                    <div class="dao-tag-style" style="color: #D387F7;">Service DAO</div>
-                    <div class="dao-tag-style" style="color: #77E6FF;">Community DAO</div>
+            <div class="flex-column align-items montserrat semibold">
+                <div class="dao-tags-line-one flex-row">
+                    <div class="dao-tag-style align-items pink-goose-pink">Investment DAO</div>
+                    <div class="dao-tag-style align-items pink-goose-yellow">Startup DAO</div>
+                    <div class="dao-tag-style align-items pink-goose-purple">Service DAO</div>
+                    <div class="dao-tag-style align-items pink-goose-light-blue">Community DAO</div>
                 </div>
 
-                <div class="dao-tags-line-two">
-                    <div class="dao-tag-style" style="color: #23C9DE;">Impact DAO</div>
-                    <div class="dao-tag-style" style="color: #FF9E9E;">DeFi DAO</div>
-                    <div class="dao-tag-style" style="color: #707F8D;">
-                        <img style="padding-right: 8px;" src="assets/icon/star-dark.png" alt="star-dark">
+                <div class="dao-tags-line-two flex-row">
+                    <div class="dao-tag-style align-items pink-goose-dark-light-blue">Impact DAO</div>
+                    <div class="dao-tag-style align-items pink-goose-red">DeFi DAO</div>
+                    <div class="dao-tag-style dao-tag-img align-items pink-goose-gray">
+                        <img src="assets/icon/star-dark.png" alt="star-dark">
                         More
                     </div>
                 </div>
             </div>
+            <div class="gamebox flex-column align-items">
+                <div>
+                    <img class="gamebox-img justify-center" src="assets/gamebox.png" alt="gamebox">
+                </div>
 
-            <div class="gamebox">
-                <img src="assets/gamebox.png" alt="gamebox">
-
-                <div class="gamebox-subtext montserrat bold">
+                <div class="gamebox-subtext align-items montserrat bold">
                     1000+ projects launched on Superdao
                 </div>
             </div>
         </section>
 
-        <section class="section-three lato bold">
-            <div class="section-three-title">
+        <section class="section-three flex-column lato bold">
+            <div class="section-three-title flex-row">
                 <div class="img-title-spacer"></div>
 
                 Designed for the full journey
 
                 <div class="title-img">
-                    <img style="margin-left: auto;display: block;" src="assets/icon/stars-1.png" alt="stars">
+                    <img class="title-img-img" src="assets/icon/stars-1.png" alt="stars">
                 </div>
             </div>
 
-            <div class="section-three-subtext text-align">
+            <div class="section-three-subtext flex-column align-items text-align">
                 <div class="section-three-subtext-style">Organisation design</div>
                 <div class="section-three-subtext-style">Smart contract development</div>
                 <div class="section-three-subtext-style">Fundraising</div>
@@ -110,8 +111,8 @@
             </div>
         </section>
 
-        <section class="section-four">
-            <div class="section-four-title lato bold">
+        <section class="section-four flex-column">
+            <div class="section-four-title flex-row lato bold">
                 <div class="title-img" style="display: flex;justify-content: center;height: 53px;">
                     <img src="assets/icon/stars-4.png" alt="stars">
                 </div>
@@ -123,44 +124,44 @@
                 </div>
             </div>
 
-            <div class="section-four-blocks montserrat semibold">
+            <div class="section-four-blocks flex-row montserrat semibold">
                 <div class="section-four-block-item text-align">
-                    <div class="section-four-block-style outline">
+                    <div class="section-four-block-style align-items outline">
                         <img class="section-four-img" src="assets/icon/ethereum.png" alt="ethereum">
                     </div>
                     Ethereum
                 </div>
 
                 <div class="section-four-block-item text-align">
-                    <div class="section-four-block-style outline">
+                    <div class="section-four-block-style align-items outline">
                         <img class="section-four-img" src="assets/icon/matic.png" alt="matic">
                     </div>
                     Polygon
                 </div>
 
                 <div class="section-four-block-item text-align">
-                    <div class="section-four-block-style outline">
+                    <div class="section-four-block-style align-items outline">
                         <img class="section-four-img" src="assets/icon/vector.png" alt="vector">
                     </div>
                     Gnosis Safe
                 </div>
 
                 <div class="section-four-block-item text-align">
-                    <div class="section-four-block-style outline">
+                    <div class="section-four-block-style align-items outline">
                         <img class="section-four-img" src="assets/icon/snapshot.png" alt="snapshot">
                     </div>
                     Snapshot
                 </div>
 
                 <div class="section-four-block-item text-align">
-                    <div class="section-four-block-style outline">
+                    <div class="section-four-block-style align-items outline">
                         <img class="section-four-img" src="assets/icon/ens.png" alt="ens">
                     </div>
                     ENS
                 </div>
 
                 <div class="section-four-block-item text-align">
-                    <div class="section-four-block-style outline">
+                    <div class="section-four-block-style align-items outline">
                         <img class="section-four-img" src="assets/icon/open-sea.png" alt="open-sea">
                     </div>
                     OpenSea
@@ -168,9 +169,9 @@
             </div>
         </section>
 
-        <section class="section-five text-align">
+        <section class="section-five flex-column align-items text-align">
             <div class="section-five-title lato bold">Help at every step</div>
-            <div class="section-five-img">
+            <div class="section-five-img flex-row">
                 <img class="section-five-img-style text-align" src="assets/team/1.png" alt="1">
                 <img class="section-five-img-style text-align" src="assets/team/2.png" alt="2">
                 <img class="section-five-img-style text-align" src="assets/team/3.png" alt="3">
@@ -186,25 +187,25 @@
             </div>
         </section>
 
-        <section class="section-six text-align outline">
+        <section class="section-six flex-column align-items text-align outline">
             <div class="section-six-title lato bold">Weekly digest</div>
             <div class="section-six-subtext montserrat semibold">Latest news in DAOs and Web3</div>
 
-            <div class="section-six-email">
-                <input class="section-six-email-input lato semibold outline" type="text" placeholder="Your email">
-                <div class="section-six-submit-button montserrat semibold">Subscribe</div>
+            <div class="flex-row">
+                <input class="section-six-email-input ignore-parent-style lato semibold outline" type="text" placeholder="Your email">
+                <div class="section-six-submit-button align-items montserrat semibold">Subscribe</div>
             </div>
         </section>
 
-        <section class="section-seven">
+        <section class="section-seven flex-column">
             <div class="section-seven-title">
                 <div class="lato bold" style="font-size: 54px;">Press</div>
                 <div class="section-seven-title-img"><img src="assets/icon/stars-2.png" alt="stars"></div>
                 <div class="section-seven-subtext montserrat bold">See all <img src="assets/icon/arrow-light.png" alt="arrow"></div>
             </div>
 
-            <div class="section-seven-items">
-                <div class="section-seven-item-style" style="background-color: #77E6FF;">
+            <div class="section-seven-items flex-row">
+                <div class="section-seven-item-style flex-column" style="background-color: #77E6FF;">
                     <div>
                         <div class="section-seven-item-img">
                             <img src="assets/decrypt.png" alt="decrypt" style="width: 120px;height: 40px;">
@@ -215,7 +216,7 @@
                     <div class="section-seven-item-subtext montserrat bold">Read <img src="assets/icon/arrow.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-seven-item-style" style="background-color: #E2C1F9;">
+                <div class="section-seven-item-style flex-column" style="background-color: #E2C1F9;">
                     <div>
                         <div class="section-seven-item-img">
                             <img src="assets/blockworks.png" alt="blockworks" style="width: 140px;height: 22px;">
@@ -226,7 +227,7 @@
                     <div class="section-seven-item-subtext montserrat bold">Read <img src="assets/icon/arrow.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-seven-item-style" style="background-color: #DBE268;">
+                <div class="section-seven-item-style flex-column" style="background-color: #DBE268;">
                     <div>
                         <div class="section-seven-item-img">
                             <img src="assets/techcrunch.png" alt="techcrunch" style="width: 160px;height: 24px;">
@@ -245,8 +246,8 @@
                 <div class="section-seven-subtext montserrat bold">See all <img src="assets/icon/arrow-light.png" alt="arrow"></div>
             </div>
 
-            <div class="section-eight-items">
-                <div class="section-eight-item-style outline">
+            <div class="section-eight-items flex-row">
+                <div class="section-eight-item-style flex-column outline">
                     <div>
                         <div class="section-eight-item-img">
                             <img style="border-radius: 8px;" src="assets/1.png" alt="the-pump">
@@ -257,7 +258,7 @@
                     <div class="section-eight-item-subtext montserrat bold">Listen <img src="assets/icon/arrow-light.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-eight-item-style outline">
+                <div class="section-eight-item-style flex-column outline">
                     <div>
                         <div class="section-eight-item-img">
                             <img style="border-radius: 8px;" src="assets/2.png" alt="unstoppable">
@@ -268,7 +269,7 @@
                     <div class="section-eight-item-subtext montserrat bold">Listen <img src="assets/icon/arrow-light.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-eight-item-style outline">
+                <div class="section-eight-item-style flex-column outline">
                     <div>
                         <div class="section-eight-item-img">
                             <img style="border-radius: 8px;" src="assets/3.png" alt="zima-red">
@@ -285,13 +286,13 @@
             <img src="assets/icon/Group5597.png" alt="Group5597">
         </div>
 
-        <section class="section-nine">
-            <div class="section-nine-text lato bold text-align">
+        <section class="section-nine flex-column align-items">
+            <div class="section-nine-text flex-column lato bold text-align">
                 <div style="font-size: 54px;">What's your GOOSE idea?</div>
                 <div style="font-size: 48px;color: #5A6C7E;">Let’s chat and see how we can help</div>
             </div>
-            <div class="section-nine-buttons">
-                <div class="telegram-button">
+            <div class="section-nine-buttons flex-row">
+                <div class="telegram-button flex-row align-items">
                     <div>
                         <img src="assets/icon/telegram.png" alt="telegram" style="width: 52px;height: 52px;margin-left: 20px;">
                     </div>
@@ -301,7 +302,7 @@
                         <div class="telegram-subtext montserrat medium" style="font-size: 16px;color: #4D3705;">@superdao_team</div>
                     </div>
                 </div>
-                <div class="email-button">
+                <div class="email-button flex-row align-items">
                     <div>
                         <img src="assets/icon/email.png" alt="email" style="width: 52px;height: 52px;margin-left: 20px;">
                     </div>
@@ -314,9 +315,9 @@
         </section>
     </main>
 
-    <footer class="montserrat">
+    <footer class="montserrat align-items">
         <div class="footer-spacer"></div>
-        <div class="footer-nav semibold">
+        <div class="footer-nav semibold text-align">
             <a href="about.html">About</a>
             <a href="jobs.html">Jobs</a>
             <a href="https://github.com/m3v64/Pink-Goose/blob/main/LICENSE" class="legal">Legal</a>

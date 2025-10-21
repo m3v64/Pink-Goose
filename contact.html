@@ -10,12 +10,12 @@
 </head>
 
 <body class="lato">
-    <header class="montserrat">
+    <header class="montserrat align-items">
         <div class="header-logo bold">
             <a href="index.html">Pink <span class="goose">Goose</span></a>
         </div>
 
-        <div class="header-nav semibold">
+        <div class="header-nav semibold text-align">
             <a href="index.html">Home</a>
             <a href="index.html#learn">Learn</a>
             <a href="about.html">About</a>
@@ -23,20 +23,20 @@
         </div>
 
         <div class="header-login medium">
-            <div class="login-button">
+            <div class="login-button align-items">
                 <a href="login.html">Login</a>
             </div>
         </div>
     </header>
 
-    <main>
-        <section class="section-nine" style="margin-top: 120px;margin-bottom: 125px;">
-            <div class="section-nine-text lato bold text-align">
+    <main class="flex-column align-items">
+        <section class="section-nine flex-column align-items" style="margin-top: 120px;margin-bottom: 125px;">
+            <div class="section-nine-text flex-column lato bold text-align">
                 <div style="font-size: 54px;">What's your GOOSE idea?</div>
                 <div style="font-size: 48px;color: #5A6C7E;">Let’s chat and see how we can help</div>
             </div>
-            <div class="section-nine-buttons">
-                <div class="telegram-button">
+            <div class="section-nine-buttons flex-row">
+                <div class="telegram-button flex-row align-items">
                     <div>
                         <img src="assets/icon/telegram.png" alt="telegram" style="width: 52px;height: 52px;margin-left: 20px;">
                     </div>
@@ -46,7 +46,7 @@
                         <div class="telegram-subtext montserrat medium" style="font-size: 16px;color: #4D3705;">@superdao_team</div>
                     </div>
                 </div>
-                <div class="email-button">
+                <div class="email-button flex-row align-items">
                     <div>
                         <img src="assets/icon/email.png" alt="email" style="width: 52px;height: 52px;margin-left: 20px;">
                     </div>
@@ -58,14 +58,14 @@
             </div>
         </section>
 
-        <section class="contact-form-section outline">
+        <section class="contact-form-section flex-column outline">
             <div class="lato bold" style="font-size: 54px;text-align: center;margin-top: 40px;margin-bottom: 30px;">Send a post Goose</div>
             <div style="display: flex;justify-content: center;">
-                <form class="contact-form montserrat semibold">
-                    <input class="contact-input-style outline" type="email" name="email" placeholder="Your email" required>
-                    <input class="contact-input-style outline" type="text" name="name" placeholder="Your name" required>
-                    <textarea class="contact-textarea-style outline" name="message" placeholder="Your message" required></textarea>
-                    <select class="contact-select-style outline" name="gooseColor" required>
+                <form class="contact-form flex-column align-items montserrat semibold">
+                    <input class="contact-input-style outline ignore-parent-style" type="email" name="email" placeholder="Your email" required>
+                    <input class="contact-input-style outline ignore-parent-style" type="text" name="name" placeholder="Your name" required>
+                    <textarea class="contact-textarea-style outline ignore-parent-style" name="message" placeholder="Your message" required></textarea>
+                    <select class="contact-select-style outline ignore-parent-style" name="gooseColor" required>
                         <option selected hidden>Color of your goose</option>
                         <option value="red">Red</option>
                         <option value="white">White</option>
@@ -78,9 +78,9 @@
         </section>
     </main>
 
-    <footer class="montserrat">
+    <footer class="montserrat align-items">
         <div class="footer-spacer"></div>
-        <div class="footer-nav semibold">
+        <div class="footer-nav semibold text-align">
             <a href="about.html">About</a>
             <a href="jobs.html">Jobs</a>
             <a href="https://github.com/m3v64/Pink-Goose/blob/main/LICENSE" class="legal">Legal</a>

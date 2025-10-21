@@ -15,21 +15,13 @@ body {
 
 header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 106px;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 footer {
     display: flex;
-    align-items: center;
     background-color: #121E28;
     width: 100%;
     height: 168px;
@@ -66,7 +58,6 @@ footer {
     width: 92px;
     font-size: 18px;
     background-color: #243241;
-    align-items: center;
     justify-content: center;
     border-radius: 5px;
 }
@@ -74,25 +65,18 @@ footer {
 /* the first section classes */
 
 .section-one {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     margin-top: 136px;
     width: 649px;
     height: 412px;
 }
 
 .section-one-title {
-    font-weight: 600;
-    font-size: 32px;
     width: 526px;
     height: 168px;
     font-size: 62px;
 }
 
 .section-one-subtext {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: 92px;
     font-size: 26px;
@@ -102,7 +86,6 @@ footer {
     display: flex;
     margin-top: auto;
     justify-content: center;
-    align-items: center;
     width: 214px;
     height: 68px;
     border-radius: 16px;
@@ -122,16 +105,13 @@ footer {
 /* section two classes */
 
 .section-two {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 200px;
     width: 1140px;
-    height: 797px;
+    height: 841px;
 }
 
 .section-two-title-bar {
     display: flex;
-    flex-direction: row;
     width: 100%;
     height: auto;
     margin-bottom: 44px;
@@ -140,6 +120,11 @@ footer {
 .title-img {
     display: block;
     flex: 1;
+}
+
+.title-img-img {
+    margin-left: auto;
+    display: block;
 }
 
 .section-two-title {
@@ -152,15 +137,7 @@ footer {
     flex: 1;
 }
 
-.dao-tags {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .dao-tags-line-one {
-    display: flex;
-    flex-direction: row;
     gap: 24px;
     margin-bottom: 24px;
     width: 889px;
@@ -168,8 +145,6 @@ footer {
 }
 
 .dao-tags-line-two {
-    display: flex;
-    flex-direction: row;
     gap: 24px;
     width: 510px;
     height: 56px;
@@ -182,39 +157,40 @@ footer {
     height: 56px;
     font-size: 20px;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
+.dao-tag-img {
+    padding-right: 8px;
+}
+
 .gamebox {
-    display: flex;
     margin-top: auto;
     width: 1140px;
-    height: 493px;
+    height: 537px;
     border-radius: 30px;
-    position: relative;
+}
+
+.gamebox-img {
+    border-radius: 30px;
+    height: 493px;
 }
 
 .gamebox-subtext {
-    position: absolute;
-    bottom: -22px;
-    left: 50%;
-    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    position: relative;
     background-color: #FFB4D3;
+    top: -22px;
     width: 404px;
     height: 44px;
     border-radius: 100px;
     font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 /* section three classes */
 
 .section-three {
-    display: flex;
-    flex-direction: column;
     margin-bottom: 200px;
     font-size: 54px;
     width: 1140px;
@@ -222,16 +198,11 @@ footer {
 }
 
 .section-three-title {
-    display: flex;
-    flex-direction: row;
     width: 1140px;
     height: auto;
 }
 
 .section-three-subtext {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 0 auto;
     height: fit-content;
     width: fit-content;
@@ -252,22 +223,16 @@ footer {
 /* section four classes */
 
 .section-four {
-    display: flex;
-    flex-direction: column;
     width: 1140px;
     height: 340px;
 }
 
 .section-four-title {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 44px;
     font-size: 54px;
 }
 
 .section-four-blocks {
-    display: flex;
-    flex-direction: row;
     align-content: center;
     justify-content: space-between;
 }
@@ -284,7 +249,6 @@ footer {
 
 .section-four-block-style {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-bottom: 16px;
     width: 160px;
@@ -296,9 +260,6 @@ footer {
 /* section five classes */
 
 .section-five {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-top: 200px;
     width: 1140px;
     height: 590px;
@@ -309,8 +270,6 @@ footer {
 }
 
 .section-five-img {
-    display: flex;
-    flex-direction: row;
     margin-bottom: 26px;
     margin-top: 44px;
     width: 900px;
@@ -330,11 +289,8 @@ footer {
 /* section six classes */
 
 .section-six {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 216px;
     background-color: #121E28;
+    margin-top: 216px;
     border-radius: 30px;
     width: 1140px;
     height: 390px;
@@ -352,19 +308,12 @@ footer {
     font-size: 36px;
 }
 
-.section-six-email {
-    display: flex;
-    flex-direction: row;
-}
-
 .section-six-email-input {
     background-color: #121E28;
     border-radius: 16px;
     text-indent: 21px;
     width: 506px;
     height: 68px;
-    border: none;
-    outline: none;
     font-size: 20px;
 }
 
@@ -374,7 +323,6 @@ footer {
 
 .section-six-submit-button {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-left: 24px;
     border-radius: 16px;
@@ -388,8 +336,6 @@ footer {
 /* section seven classes */
 
 .section-seven {
-    display: flex;
-    flex-direction: column;
     margin-top: 140px;
     margin-bottom: 210px;
     width: 1140px;
@@ -424,8 +370,6 @@ footer {
 }
 
 .section-seven-items {
-    display: flex;
-    flex-direction: row;
     gap: 28px;
     width: 1141px;
     height: 382px;
@@ -439,8 +383,6 @@ footer {
 }
 
 .section-seven-item-style {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     border-radius: 20px;
     width: 361px;
@@ -468,8 +410,6 @@ footer {
 }
 
 .section-eight-item-style {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     background-color: #121E28;
     border-radius: 20px;
@@ -487,8 +427,6 @@ footer {
 }
 
 .section-eight-items {
-    display: flex;
-    flex-direction: row;
     gap: 28px;
     width: 1141px;
     height: 382px;
@@ -524,9 +462,6 @@ footer {
 }
 
 .section-nine {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     margin-bottom: 200px;
     width: 1140px;
@@ -534,25 +469,18 @@ footer {
 }
 
 .section-nine-text {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     height: fit-content;
     gap: 16px;
 }
 
 .section-nine-buttons {
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 592px;
     height: 84px;
 }
 
 .telegram-button {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
     background-color: #FFC803;
     box-shadow: 0px 4px 12px 0px rgba(255, 200, 3, 0.3);
     border-radius: 16px;
@@ -567,9 +495,6 @@ footer {
 }
 
 .email-button {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
     background-color: #E2C1F9;
     box-shadow: 0px 4px 12px 0px rgba(226, 193, 249, 0.3);
     border-radius: 16px;
@@ -580,8 +505,6 @@ footer {
 /* about section classes */
 
 .about-section {
-    display: flex;
-    flex-direction: column;
     margin-top: 91px;
     width: 1140px;
     height: 529px;
@@ -593,16 +516,12 @@ footer {
 }
 
 .about-section-herobox {
-    display: flex;
     justify-content: space-between;
-    flex-direction: row;
     width: 1140px;
     height: 334px;
 }
 
 .about-section-herobox-style {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     background-color: #FFB4D3;
     border-radius: 20px;
@@ -623,8 +542,6 @@ footer {
 /* contact form classes */
 
 .contact-form-section {
-    display: flex;
-    flex-direction: column;
     background-color: #121E28;
     border-radius: 30px;
     margin-bottom: 359px;
@@ -633,17 +550,12 @@ footer {
 }
 
 .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     height: 468px;
     width: 506px;
     gap: 30px;
 }
 
 .contact-input-style {
-    border: none;
-    outline: none;
     background-color: #121E28;
     border-radius: 16px;
     text-indent: 28px;
@@ -657,8 +569,6 @@ footer {
 }
 
 .contact-textarea-style {
-    border: none;
-    outline: none;
     background-color: #121E28;
     border-radius: 16px;
     text-indent: 28px;
@@ -666,7 +576,6 @@ footer {
     font-size: 20px;
     width: 506px;
     height: 289px;
-    resize: none;
 }
 
 .contact-textarea-style::placeholder {
@@ -674,8 +583,6 @@ footer {
 }
 
 .contact-select-style {
-    border: none;
-    outline: none;
     background-color: #121E28;
     border-radius: 16px;
     text-indent: 16px;
@@ -710,8 +617,6 @@ select option {
 }
 
 .footer-nav {
-    display: flex;
-    text-align: center;
     gap: 56px;
     font-size: 22px;
 }
@@ -727,12 +632,30 @@ select option {
     color: #FFC803;
 }
 
-/* extra classes */
+/* font classes */
 
 .lato { font-family: "Lato", sans-serif; }
 .montserrat { font-family: "Montserrat", sans-serif; }
 .bold { font-weight: 700; }
 .semibold { font-weight: 600; }
 .medium { font-weight: 500; }
+
+/* allignment classes */
+
 .text-align { text-align: center; }
 .outline { box-shadow: inset 0 0 0 2px #2A3744; }
+.ignore-parent-style { border: none; outline: none; resize: none; }
+.flex-column { display: flex; flex-direction: column; }
+.flex-row { display: flex; flex-direction: row; }
+.align-items { display: flex; align-items: center; }
+.justify-center { display: flex; justify-content: center; }
+
+/* color classes */
+
+.pink-goose-gray { color: #707F8D; }
+.pink-goose-red { color: #FF9E9E; }
+.pink-goose-dark-light-blue { color: #23C9DE; }
+.pink-goose-light-blue { color: #77E6FF; }
+.pink-goose-purple { color: #D387F7; }
+.pink-goose-pink { color: #FFB4D3; }
+.pink-goose-yellow { color: #FFC24C; }

@@ -10,12 +10,12 @@
 </head>
 
 <body class="lato">
-    <header class="montserrat">
+    <header class="montserrat align-items">
         <div class="header-logo bold">
             <a href="index.html">Pink <span class="goose">Goose</span></a>
         </div>
 
-        <div class="header-nav semibold">
+        <div class="header-nav semibold text-align">
             <a href="index.html">Home</a>
             <a href="index.html#learn">Learn</a>
             <a href="about.html">About</a>
@@ -23,17 +23,17 @@
         </div>
 
         <div class="header-login medium">
-            <div class="login-button">
+            <div class="login-button align-items">
                 <a href="login.html">Login</a>
             </div>
         </div>
     </header>
 
-    <main>
-        <section class="about-section">
+    <main class="flex-column align-items">
+        <section class="about-section flex-column">
             <div class="about-section-title lato bold text-align">Our heroes</div>
-            <div class="about-section-herobox">
-                <div class="about-section-herobox-style">
+            <div class="about-section-herobox flex-row">
+                <div class="about-section-herobox-style flex-column">
                     <div style="display: flex;justify-content: center;">
                         <img src="assets/team/1.png" alt="1" style="border-radius: 40px;margin-top: 16px;">
                     </div>
@@ -44,7 +44,7 @@
                     <div class="about-contact-arrow">Contact <img src="assets/icon/arrow.png" alt="arrow"></div>
                 </div>
 
-                <div class="about-section-herobox-style">
+                <div class="about-section-herobox-style flex-column">
                     <div style="display: flex;justify-content: center;">
                         <img src="assets/team/3.png" alt="3" style="border-radius: 40px;margin-top: 16px;">
                     </div>
@@ -55,7 +55,7 @@
                     <div class="about-contact-arrow">Contact <img src="assets/icon/arrow.png" alt="arrow"></div>
                 </div>
 
-                <div class="about-section-herobox-style">
+                <div class="about-section-herobox-style flex-column">
                     <div style="display: flex;justify-content: center;">
                         <img src="assets/team/2.png" alt="2" style="border-radius: 40px;margin-top: 16px;">
                     </div>
@@ -68,25 +68,25 @@
             </div>
         </section>
 
-        <section class="section-six">
+        <section class="section-six flex-column align-items text-align outline">
             <div class="section-six-title lato bold">Weekly digest</div>
             <div class="section-six-subtext montserrat semibold">Latest news in DAOs and Web3</div>
 
-            <div class="section-six-email">
-                <input class="section-six-email-input lato semibold" type="text" placeholder="Your email" id="section-six-email-weekly-digest">
-                <div class="section-six-submit-button montserrat semibold">Subscribe</div>
+            <div class="flex-row">
+                <input class="section-six-email-input ignore-parent-style lato semibold outline" type="text" placeholder="Your email">
+                <div class="section-six-submit-button align-items montserrat semibold">Subscribe</div>
             </div>
         </section>
 
-        <section class="section-seven">
+        <section class="section-seven flex-column">
             <div class="section-seven-title">
                 <div class="lato bold" style="font-size: 54px;">Press</div>
                 <div class="section-seven-title-img"><img src="assets/icon/stars-2.png" alt="stars"></div>
                 <div class="section-seven-subtext montserrat bold">See all <img src="assets/icon/arrow-light.png" alt="arrow"></div>
             </div>
 
-            <div class="section-seven-items">
-                <div class="section-seven-item-style" style="background-color: #77E6FF;">
+            <div class="section-seven-items flex-row">
+                <div class="section-seven-item-style flex-column" style="background-color: #77E6FF;">
                     <div>
                         <div class="section-seven-item-img">
                             <img src="assets/decrypt.png" alt="decrypt" style="width: 120px;height: 40px;">
@@ -97,7 +97,7 @@
                     <div class="section-seven-item-subtext montserrat bold">Read <img src="assets/icon/arrow.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-seven-item-style" style="background-color: #E2C1F9;">
+                <div class="section-seven-item-style flex-column" style="background-color: #E2C1F9;">
                     <div>
                         <div class="section-seven-item-img">
                             <img src="assets/blockworks.png" alt="blockworks" style="width: 140px;height: 22px;">
@@ -108,7 +108,7 @@
                     <div class="section-seven-item-subtext montserrat bold">Read <img src="assets/icon/arrow.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-seven-item-style" style="background-color: #DBE268;">
+                <div class="section-seven-item-style flex-column" style="background-color: #DBE268;">
                     <div>
                         <div class="section-seven-item-img">
                             <img src="assets/techcrunch.png" alt="techcrunch" style="width: 160px;height: 24px;">
@@ -127,8 +127,8 @@
                 <div class="section-seven-subtext montserrat bold">See all <img src="assets/icon/arrow-light.png" alt="arrow"></div>
             </div>
 
-            <div class="section-eight-items">
-                <div class="section-eight-item-style">
+            <div class="section-eight-items flex-row">
+                <div class="section-eight-item-style flex-column outline">
                     <div>
                         <div class="section-eight-item-img">
                             <img style="border-radius: 8px;" src="assets/1.png" alt="the-pump">
@@ -139,7 +139,7 @@
                     <div class="section-eight-item-subtext montserrat bold">Listen <img src="assets/icon/arrow-light.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-eight-item-style">
+                <div class="section-eight-item-style flex-column outline">
                     <div>
                         <div class="section-eight-item-img">
                             <img style="border-radius: 8px;" src="assets/2.png" alt="unstoppable">
@@ -150,7 +150,7 @@
                     <div class="section-eight-item-subtext montserrat bold">Listen <img src="assets/icon/arrow-light.png" alt="arrow"></div>
                 </div>
 
-                <div class="section-eight-item-style">
+                <div class="section-eight-item-style flex-column outline">
                     <div>
                         <div class="section-eight-item-img">
                             <img style="border-radius: 8px;" src="assets/3.png" alt="zima-red">
@@ -164,9 +164,9 @@
         </section>
     </main>
 
-    <footer class="montserrat">
+    <footer class="montserrat align-items">
         <div class="footer-spacer"></div>
-        <div class="footer-nav semibold">
+        <div class="footer-nav semibold text-align">
             <a href="about.html">About</a>
             <a href="jobs.html">Jobs</a>
             <a href="https://github.com/m3v64/Pink-Goose/blob/main/LICENSE" class="legal">Legal</a>
