@@ -1,7 +1,3 @@
-/* ============================================
-   GLOBAL RESET & BASE STYLES
-   ============================================ */
-
 * {
     padding: 0;
     margin: 0;
@@ -14,10 +10,6 @@
 body {
     background-color: #0A1117;
 }
-
-/* ============================================
-   HEADER & FOOTER LAYOUT
-   ============================================ */
 
 header {
     display: flex;
@@ -33,11 +25,7 @@ footer {
     height: 168px;
 }
 
-/* ============================================
-   HEADER COMPONENTS
-   ============================================ */
-
-/* Logo section - left side of header */
+/* HEADER COMPONENTS */
 .header-logo {
     display: flex;
     justify-content: center;
@@ -45,26 +33,22 @@ footer {
     flex: 1;
 }
 
-/* Pink accent color for "Goose" in logo */
 .goose {
     color: #FFB4D3;
 }
 
-/* Navigation menu - center of header */
 .header-nav {
     display: flex;
     font-size: 20px;
     gap: 44px;
 }
 
-/* Login section - right side of header */
 .header-login {
     display: flex;
     justify-content: center;
     flex: 1;
 }
 
-/* Login button styling */
 .login-button {
     display: flex;
     height: 44px;
@@ -75,32 +59,25 @@ footer {
     border-radius: 5px;
 }
 
-/* ============================================
-   SECTION ONE - HERO SECTION
-   ============================================ */
-
-/* Hero section container */
+/* SECTION ONE */
 .section-one {
     margin-top: 136px;
     width: 649px;
     height: 412px;
 }
 
-/* Main hero title */
 .section-one-title {
     width: 526px;
     height: 168px;
     font-size: 62px;
 }
 
-/* Hero subtitle/description */
 .section-one-subtext {
     width: 100%;
     height: 92px;
     font-size: 26px;
 }
 
-/* Primary CTA button - reusable button style */
 .button-get-started {
     display: flex;
     margin-top: auto;
@@ -112,7 +89,6 @@ footer {
     font-size: 20px;
 }
 
-/* Scroll indicator arrows */
 .arrows-pointing-down {
     display: flex;
     width: 21px;
@@ -121,16 +97,11 @@ footer {
     margin-bottom: 65px;
 }
 
-/* ============================================
-   SECTION TWO - PROJECT TYPES & SHOWCASE
-   ============================================ */
-
-/* Main container for project types section */
+/* SECTION TWO */
 .section-two {
     height: 841px;
 }
 
-/* Title bar with decorative elements */
 .section-two-title-bar {
     display: flex;
     width: 100%;
@@ -138,31 +109,26 @@ footer {
     margin-bottom: 44px;
 }
 
-/* Container for title decorative images */
 .title-img {
     display: block;
     flex: 1;
 }
 
-/* Align image to the right within container */
 .title-img-img {
     margin-left: auto;
     display: block;
 }
 
-/* Section title text */
 .section-two-title {
     font-size: 54px;
     display: flex;
     justify-content: center;
 }
 
-/* Spacer for title alignment */
 .img-title-spacer {
     flex: 1;
 }
 
-/* DAO tag containers - first row */
 .dao-tags-line-one {
     gap: 24px;
     margin-bottom: 24px;
@@ -170,14 +136,12 @@ footer {
     height: 56px;
 }
 
-/* DAO tag containers - second row */
 .dao-tags-line-two {
     gap: 24px;
     width: 510px;
     height: 56px;
 }
 
-/* Individual DAO tag badge styling */
 .dao-tag-style {
     background-color: #182632;
     border-radius: 100px;
@@ -188,24 +152,20 @@ footer {
     justify-content: center;
 }
 
-/* Icon spacing within DAO tags */
 .dao-tag-img {
     padding-right: 8px;
 }
 
-/* Showcase game/project box container */
 .gamebox {
     margin-top: auto;
     width: 1140px;
     height: 537px;
 }
 
-/* Main showcase image */
 .gamebox-img {
     height: 493px;
 }
 
-/* Statistics badge below showcase */
 .gamebox-subtext {
     display: flex;
     justify-content: center;
@@ -217,22 +177,16 @@ footer {
     font-size: 18px;
 }
 
-/* ============================================
-   SECTION THREE - JOURNEY STEPS
-   ============================================ */
-
-/* Container for journey steps section */
+/* SECTION THREE */
 .section-three {
     font-size: 54px;
     height: 692px;
 }
 
-/* Section title */
 .section-three-title {
     height: auto;
 }
 
-/* Container for journey step items */
 .section-three-subtext {
     margin: 0 auto;
     height: fit-content;
@@ -241,51 +195,40 @@ footer {
     gap: 20px;
 }
 
-/* Individual journey step with hover effect */
 .section-three-subtext-style {
     color: #37424D;
     transition: color 0.6s ease, transform 0.6s ease;
 }
 
-/* Hover state - pink highlight with scale animation */
 .section-three-subtext-style:hover {
     color: #FFB4D3;
     transform: scale(1.2);
 }
 
-/* ============================================
-   SECTION FOUR - INTEGRATIONS/WORKS WITH
-   ============================================ */
-
-/* Container for integrations section */
+/* SECTION FOUR */
 .section-four {
     height: 340px;
 }
 
-/* Section title */
 .section-four-title {
     margin-bottom: 44px;
 }
 
-/* Grid container for integration blocks */
 .section-four-blocks {
     align-content: center;
     justify-content: space-between;
 }
 
-/* Individual integration item */
 .section-four-block-item {
     font-size: 22px;
 }
 
-/* Integration icon */
 .section-four-img {
     display: flex;
     width: 56px;
     height: 56px;
 }
 
-/* Integration block card styling */
 .section-four-block-style {
     display: flex;
     justify-content: center;
@@ -296,13 +239,11 @@ footer {
     background-color: #121E28;
 }
 
-/* Container for help section */
 .section-five {
     margin-top: 200px;
     height: 590px;
 }
 
-/* Container for team/help images */
 .section-five-img {
     margin-bottom: 26px;
     margin-top: 44px;
@@ -311,34 +252,26 @@ footer {
     gap: 25px;
 }
 
-/* Individual help image styling */
 .section-five-img-style {
     border-radius: 40px;
 }
 
-/* Help resources description text */
 .section-five-img-subtext {
     margin-top: 22px;
     font-size: 40px;
 }
 
-/* ============================================
-   SECTION SIX - NEWSLETTER SIGNUP
-   ============================================ */
-
-/* Newsletter signup container with dark background */
+/* SECTION SIX */
 .section-six {
     background-color: #121E28;
     margin-top: 216px;
     height: 390px;
 }
 
-/* Newsletter title */
 .section-six-title {
     margin-top: 40px;
 }
 
-/* Newsletter description */
 .section-six-subtext {
     margin-top: 4px;
     margin-bottom: 68px;
@@ -346,7 +279,6 @@ footer {
     font-size: 36px;
 }
 
-/* Email input field */
 .section-six-email-input {
     background-color: #121E28;
     text-indent: 21px;
@@ -355,12 +287,10 @@ footer {
     font-size: 20px;
 }
 
-/* Email input placeholder styling */
 .section-six-email-input::placeholder {
     color: #3D4C5B;
 }
 
-/* Submit button for newsletter */
 .section-six-submit-button {
     display: flex;
     justify-content: center;
@@ -372,17 +302,12 @@ footer {
     height: 68px;
 }
 
-/* ============================================
-   SECTION SEVEN - PRESS ARTICLES
-   ============================================ */
-
-/* Container for press section */
+/* SECTION SEVEN */
 .section-seven {
     margin-top: 140px;
     height: 494px;
 }
 
-/* Title bar with "See all" link */
 .section-seven-title {
     display: flex;
     margin-bottom: 32px;
@@ -390,7 +315,6 @@ footer {
     height: auto;
 }
 
-/* Decorative star image in title */
 .section-seven-title-img {
     display: flex;
     padding-left: 93px;
@@ -398,7 +322,6 @@ footer {
     height: 59px;
 }
 
-/* "See all" link styling */
 .section-seven-subtext {
     align-self: center;
     margin-left: auto;
@@ -408,13 +331,11 @@ footer {
     height: 40px;
 }
 
-/* Container for press article cards */
 .section-seven-items {
     gap: 28px;
     height: 382px;
 }
 
-/* Press outlet logo */
 .section-seven-item-img {
     display: flex;
     margin: 28px;
@@ -422,27 +343,23 @@ footer {
     height: 42px;
 }
 
-/* Individual press article card */
 .section-seven-item-style {
     justify-content: space-between;
     width: 361px;
     height: 382px;
 }
 
-/* Article text content */
 .section-seven-item-text {
     color: #10151A;
     margin-left: 28px;
     margin-right: 28px;
 }
 
-/* Article headline */
 .section-seven-item-text-header {
     font-size: 22px; 
     margin-bottom: 18px;
 }
 
-/* "Read" link at bottom of card */
 .section-seven-item-subtext {
     margin: 28px;
     color: #10151A;
@@ -450,16 +367,11 @@ footer {
     height: 20px;
 }
 
-/* ============================================
-   SECTION EIGHT - PODCASTS
-   ============================================ */
-
-/* About page variant with extra spacing */
+/* SECTION EIGHT */
 .section-eight-about {
     margin-bottom: 382px;
 }
 
-/* Title bar (reuses section-seven structure) */
 .section-eight-title {
     display: flex;
     margin-bottom: 32px;
@@ -467,7 +379,6 @@ footer {
     height: auto;
 }
 
-/* Individual podcast card - dark theme */
 .section-eight-item-style {
     justify-content: space-between;
     background-color: #121E28;
@@ -475,7 +386,6 @@ footer {
     height: 382px;
 }
 
-/* "See all" link (reuses section-seven styling) */
 .section-eight-subtext {
     align-self: center;
     margin-left: auto;
@@ -485,13 +395,11 @@ footer {
     height: 40px;
 }
 
-/* Container for podcast cards */
 .section-eight-items {
     gap: 28px;
     height: 382px;
 }
 
-/* Podcast cover art with border */
 .section-eight-item-img {
     display: flex;
     border-radius: 8px;
@@ -503,29 +411,22 @@ footer {
     height: 50px;
 }
 
-/* Border radius for podcast images */
 .section-eight-img-border {
     border-radius: 8px;
 }
 
-/* Podcast description text */
 .section-eight-item-text {
     margin-left: 28px;
     margin-right: 28px;
 }
 
-/* "Listen" link at bottom of card */
 .section-eight-item-subtext {
     margin: 28px;
     width: 72px;
     height: 20px;
 }
 
-/* ============================================
-   SECTION NINE - CONTACT CTA
-   ============================================ */
-
-/* Decorative logo image */
+/* SECTION NINE */
 .group5597-img {
     margin-top: 69px;
     margin-bottom: 100px;
@@ -533,27 +434,23 @@ footer {
     width: 77px;
 }
 
-/* Container for contact CTA */
 .section-nine {
     justify-content: space-between;
     height: 306px;
 }
 
-/* CTA text content */
 .section-nine-text {
     width: 100%;
     height: fit-content;
     gap: 16px;
 }
 
-/* Container for contact buttons */
 .section-nine-buttons {
     justify-content: space-between;
     width: 592px;
     height: 84px;
 }
 
-/* Telegram button with yellow theme */
 .telegram-button {
     background-color: #FFC803;
     box-shadow: 0px 4px 12px 0px rgba(255, 200, 3, 0.3);
@@ -561,14 +458,12 @@ footer {
     height: 84px;
 }
 
-/* Telegram button text color */
 .telegram-text {
     color: #4D3705;
     font-size: 20px;
     margin-left: 16px;
 }
 
-/* Email button with purple theme */
 .email-button {
     background-color: #E2C1F9;
     box-shadow: 0px 4px 12px 0px rgba(226, 193, 249, 0.3);
@@ -576,39 +471,30 @@ footer {
     height: 84px;
 }
 
-/* Icon spacing in contact buttons */
 .section-nine-icons {
     margin-left: 20px;
 }
 
-/* Contact page variant with adjusted spacing */
 .section-nine-contact {
     margin-top: 120px;
     margin-bottom: 125px;
 }
 
-/* ============================================
-   ABOUT PAGE - TEAM SECTION
-   ============================================ */
-
-/* Container for about/team section */
+/* ABOUT PAGE */
 .about-section {
     margin-top: 91px;
     height: 529px;
 }
 
-/* About section title */
 .about-section-title {
     margin-bottom: 115px;
 }
 
-/* Container for team member cards */
 .about-section-herobox {
     justify-content: space-between;
     height: 334px;
 }
 
-/* Individual team member card - pink theme */
 .about-section-herobox-style {
     justify-content: space-between;
     background-color: #FFB4D3;
@@ -616,19 +502,16 @@ footer {
     height: 334px;
 }
 
-/* Team member photo */
 .hero-img {
     border-radius: 40px;
     margin-top: 16px;
 }
 
-/* Team member name and role text */
 .heroes {
     margin-left: 28px;
     margin-top: 30px;
 }
 
-/* "Contact" link on team cards */
 .about-contact-arrow {
     align-self: flex-end;
     color: #10151A;
@@ -639,11 +522,7 @@ footer {
     height: 20px;
 }
 
-/* ============================================
-   CONTACT PAGE - FORM SECTION
-   ============================================ */
-
-/* Container for contact form - dark background */
+/* CONTACT PAGE */
 .contact-form-section {
     background-color: #121E28;
     margin-bottom: 359px;
@@ -651,27 +530,23 @@ footer {
     height: fit-content;
 }
 
-/* Contact form title */
 .contact-title {
     margin-top: 40px;
     margin-bottom: 30px;
 }
 
-/* Form layout container */
 .contact-form {
     height: 807px;
     width: 506px;
     gap: 30px;
 }
 
-/* Input fields wrapper */
 .contact-div {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-/* Shared styling for text inputs */
 .contact-input-style {
     background-color: #121E28;
     text-indent: 28px;
@@ -680,12 +555,10 @@ footer {
     height: 68px;
 }
 
-/* Input placeholder text color */
 .contact-input-style::placeholder {
     color: #3D4C5B;
 }
 
-/* Textarea (message field) styling */
 .contact-textarea-style {
     background-color: #121E28;
     text-indent: 28px;
@@ -695,12 +568,10 @@ footer {
     height: 289px;
 }
 
-/* Textarea placeholder text color */
 .contact-textarea-style::placeholder {
     color: #3D4C5B;
 }
 
-/* Select dropdown styling */
 .contact-select-style {
     background-color: #121E28;
     text-indent: 16px;
@@ -710,12 +581,10 @@ footer {
     color: #3D4C5B;
 }
 
-/* Select options text color */
 select option {
     color: #3D4C5B;    
 }
 
-/* Submit button for contact form */
 .contact-send-button {
     align-self: flex-end;
     align-content: center;
@@ -728,22 +597,16 @@ select option {
     height: 68px;
 }
 
-/* ============================================
-   FOOTER COMPONENTS
-   ============================================ */
-
-/* Spacer for footer layout */
+/* FOOTER COMPONENTS */
 .footer-spacer {
     flex: 1;
 }
 
-/* Footer navigation links */
 .footer-nav {
     gap: 56px;
     font-size: 22px;
 }
 
-/* Social media icons container */
 .footer-icons {
     display: flex;
     justify-content: center;
@@ -751,16 +614,11 @@ select option {
     gap: 20px;
 }
 
-/* Legal link - yellow accent */
 .legal {
     color: #FFC803;
 }
 
-/* ============================================
-   COMMON PROPERTY GROUPS - DRY CONSOLIDATION
-   ============================================ */
-
-/* Standard content width - 1140px for main sections */
+/* COMMON PROPERTY GROUPS */
 .section-two,
 .section-three,
 .section-three-title,
@@ -776,7 +634,6 @@ select option {
     width: 1140px;
 }
 
-/* Standard section bottom spacing - 200px */
 .section-two,
 .section-three,
 .section-seven,
@@ -784,7 +641,6 @@ select option {
     margin-bottom: 200px;
 }
 
-/* Standard section title size - 54px (applies to all main section titles) */
 .section-two-title,
 .section-four-title,
 .section-five-title,
@@ -794,7 +650,6 @@ select option {
     font-size: 54px;
 }
 
-/* Standard border radius - 16px (buttons and inputs) */
 .button-get-started,
 .section-six-email-input,
 .section-six-submit-button,
@@ -807,14 +662,12 @@ select option {
     border-radius: 16px;
 }
 
-/* Standard border radius - 20px (cards) */
 .section-seven-item-style,
 .section-eight-item-style,
 .about-section-herobox-style {
     border-radius: 20px;
 }
 
-/* Standard border radius - 30px (large containers) */
 .gamebox,
 .gamebox-img,
 .section-six,
@@ -822,33 +675,25 @@ select option {
     border-radius: 30px;
 }
 
-/* Standard border radius - 40px (medium rounded) */
 .section-five-img-style,
 .hero-img,
 .section-four-block-style {
     border-radius: 40px;
 }
 
-/* Standard border radius - 100px (pill shaped) */
 .dao-tag-style,
 .gamebox-subtext {
     border-radius: 100px;
 }
 
-/* ============================================
-   TYPOGRAPHY UTILITIES
-   ============================================ */
-
-/* Font family classes */
+/* TYPOGRAPHY UTILITIES */
 .lato { font-family: "Lato", sans-serif; }
 .montserrat { font-family: "Montserrat", sans-serif; }
 
-/* Font weight classes */
 .bold { font-weight: 700; }
 .semibold { font-weight: 600; }
 .medium { font-weight: 500; }
 
-/* Font size classes */
 .font-54 { font-size: 54px; }
 .font-48 { font-size: 48px; }
 .font-22 { font-size: 22px; }
@@ -856,31 +701,20 @@ select option {
 .font-17 { font-size: 17px; }
 .font-16 { font-size: 16px; }
 
-/* ============================================
-   LAYOUT & ALIGNMENT UTILITIES
-   ============================================ */
-
-/* Flexbox layout classes */
+/* LAYOUT & ALIGNMENT UTILITIES */
 .flex { display: flex; }
 .flex-column { display: flex; flex-direction: column; }
 .flex-row { display: flex; flex-direction: row; }
 .align-items { display: flex; align-items: center; }
 .justify-center { display: flex; justify-content: center; }
 
-/* Text alignment */
 .text-align { text-align: center; }
 
-/* Border effects */
 .outline { box-shadow: inset 0 0 0 2px #2A3744; }
 
-/* Reset browser default styles for form elements */
 .ignore-parent-style { border: none; outline: none; resize: none; }
 
-/* ============================================
-   COLOR UTILITIES
-   ============================================ */
-
-/* Text colors */
+/* COLOR UTILITIES */
 .pink-goose-black { color: #10151A; }
 .pink-goose-gray { color: #707F8D; }
 .pink-goose-red { color: #FF9E9E; }
@@ -894,7 +728,6 @@ select option {
 .pink-goose-brown { color: #4D3705; }
 .pink-goose-near-white { color: #E2E2E2; }
 
-/* Background colors */
 .pink-goose-background-light-blue { background-color: #77E6FF; }
 .pink-goose-background-pink { background-color: #E2C1F9; }
 .pink-goose-background-yellow { background-color: #DBE268; }
