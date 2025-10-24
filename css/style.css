@@ -1,7 +1,3 @@
-/* ============================================
-   GLOBAL RESET & BASE STYLES
-   ============================================ */
-
 * {
     padding: 0;
     margin: 0;
@@ -14,10 +10,6 @@
 body {
     background-color: #0A1117;
 }
-
-/* ============================================
-   HEADER & FOOTER LAYOUT
-   ============================================ */
 
 header {
     display: flex;
@@ -32,10 +24,6 @@ footer {
     width: 100%;
     height: 168px;
 }
-
-/* ============================================
-   HEADER COMPONENTS
-   ============================================ */
 
 /* Logo section - left side of header */
 .header-logo {
@@ -74,10 +62,6 @@ footer {
     justify-content: center;
     border-radius: 5px;
 }
-
-/* ============================================
-   SECTION ONE - HERO SECTION
-   ============================================ */
 
 /* Hero section container */
 .section-one {
@@ -120,10 +104,6 @@ footer {
     margin-top: 118px;
     margin-bottom: 65px;
 }
-
-/* ============================================
-   SECTION TWO - PROJECT TYPES & SHOWCASE
-   ============================================ */
 
 /* Main container for project types section */
 .section-two {
@@ -217,10 +197,6 @@ footer {
     font-size: 18px;
 }
 
-/* ============================================
-   SECTION THREE - JOURNEY STEPS
-   ============================================ */
-
 /* Container for journey steps section */
 .section-three {
     font-size: 54px;
@@ -252,10 +228,6 @@ footer {
     color: #FFB4D3;
     transform: scale(1.2);
 }
-
-/* ============================================
-   SECTION FOUR - INTEGRATIONS/WORKS WITH
-   ============================================ */
 
 /* Container for integrations section */
 .section-four {
@@ -296,10 +268,6 @@ footer {
     background-color: #121E28;
 }
 
-/* ============================================
-   SECTION FIVE - HELP & SUPPORT
-   ============================================ */
-
 /* Container for help section */
 .section-five {
     margin-top: 200px;
@@ -329,10 +297,6 @@ footer {
     margin-top: 22px;
     font-size: 40px;
 }
-
-/* ============================================
-   SECTION SIX - NEWSLETTER SIGNUP
-   ============================================ */
 
 /* Newsletter signup container with dark background */
 .section-six {
@@ -380,10 +344,6 @@ footer {
     height: 68px;
 }
 
-/* ============================================
-   SECTION SEVEN - PRESS ARTICLES
-   ============================================ */
-
 /* Container for press section */
 .section-seven {
     margin-top: 140px;
@@ -396,10 +356,6 @@ footer {
     margin-bottom: 32px;
     width: 100%;
     height: auto;
-}
-
-/* Section title text */
-.section-seven-title-style {
 }
 
 /* Decorative star image in title */
@@ -461,10 +417,6 @@ footer {
     width: 64px;
     height: 20px;
 }
-
-/* ============================================
-   SECTION EIGHT - PODCASTS
-   ============================================ */
 
 /* About page variant with extra spacing */
 .section-eight-about {
@@ -533,10 +485,6 @@ footer {
     height: 20px;
 }
 
-/* ============================================
-   SECTION NINE - CONTACT CTA
-   ============================================ */
-
 /* Decorative logo image */
 .group5597-img {
     margin-top: 69px;
@@ -599,10 +547,6 @@ footer {
     margin-bottom: 125px;
 }
 
-/* ============================================
-   ABOUT PAGE - TEAM SECTION
-   ============================================ */
-
 /* Container for about/team section */
 .about-section {
     margin-top: 91px;
@@ -650,10 +594,6 @@ footer {
     width: 88px;
     height: 20px;
 }
-
-/* ============================================
-   CONTACT PAGE - FORM SECTION
-   ============================================ */
 
 /* Container for contact form - dark background */
 .contact-form-section {
@@ -740,10 +680,6 @@ select option {
     height: 68px;
 }
 
-/* ============================================
-   FOOTER COMPONENTS
-   ============================================ */
-
 /* Spacer for footer layout */
 .footer-spacer {
     flex: 1;
@@ -767,10 +703,6 @@ select option {
 .legal {
     color: #FFC803;
 }
-
-/* ============================================
-   COMMON PROPERTY GROUPS - DRY CONSOLIDATION
-   ============================================ */
 
 /* Standard content width - 1140px for main sections */
 .section-two,
@@ -847,10 +779,6 @@ select option {
     border-radius: 100px;
 }
 
-/* ============================================
-   TYPOGRAPHY UTILITIES
-   ============================================ */
-
 /* Font family classes */
 .lato { font-family: "Lato", sans-serif; }
 .montserrat { font-family: "Montserrat", sans-serif; }
@@ -868,10 +796,6 @@ select option {
 .font-17 { font-size: 17px; }
 .font-16 { font-size: 16px; }
 
-/* ============================================
-   LAYOUT & ALIGNMENT UTILITIES
-   ============================================ */
-
 /* Flexbox layout classes */
 .flex { display: flex; }
 .flex-column { display: flex; flex-direction: column; }
@@ -887,10 +811,6 @@ select option {
 
 /* Reset browser default styles for form elements */
 .ignore-parent-style { border: none; outline: none; resize: none; }
-
-/* ============================================
-   COLOR UTILITIES
-   ============================================ */
 
 /* Text colors */
 .pink-goose-black { color: #10151A; }
