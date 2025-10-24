@@ -107,7 +107,6 @@ footer {
     justify-content: center;
     width: 214px;
     height: 68px;
-    border-radius: 16px;
     background-color: #CEAAFF;
     color: #10151A;
     font-size: 20px;
@@ -128,8 +127,6 @@ footer {
 
 /* Main container for project types section */
 .section-two {
-    margin-bottom: 200px;
-    width: 1140px;
     height: 841px;
 }
 
@@ -201,12 +198,10 @@ footer {
     margin-top: auto;
     width: 1140px;
     height: 537px;
-    border-radius: 30px;
 }
 
 /* Main showcase image */
 .gamebox-img {
-    border-radius: 30px;
     height: 493px;
 }
 
@@ -219,7 +214,6 @@ footer {
     top: -22px;
     width: 404px;
     height: 44px;
-    border-radius: 100px;
     font-size: 18px;
 }
 
@@ -229,15 +223,12 @@ footer {
 
 /* Container for journey steps section */
 .section-three {
-    margin-bottom: 200px;
     font-size: 54px;
-    width: 1140px;
     height: 692px;
 }
 
 /* Section title */
 .section-three-title {
-    width: 1140px;
     height: auto;
 }
 
@@ -268,14 +259,12 @@ footer {
 
 /* Container for integrations section */
 .section-four {
-    width: 1140px;
     height: 340px;
 }
 
 /* Section title */
 .section-four-title {
     margin-bottom: 44px;
-    font-size: 54px;
 }
 
 /* Grid container for integration blocks */
@@ -314,13 +303,11 @@ footer {
 /* Container for help section */
 .section-five {
     margin-top: 200px;
-    width: 1140px;
     height: 590px;
 }
 
 /* Section title */
 .section-five-title {
-    font-size: 54px;
 }
 
 /* Container for team/help images */
@@ -351,15 +338,12 @@ footer {
 .section-six {
     background-color: #121E28;
     margin-top: 216px;
-    border-radius: 30px;
-    width: 1140px;
     height: 390px;
 }
 
 /* Newsletter title */
 .section-six-title {
     margin-top: 40px;
-    font-size: 54px;
 }
 
 /* Newsletter description */
@@ -373,7 +357,6 @@ footer {
 /* Email input field */
 .section-six-email-input {
     background-color: #121E28;
-    border-radius: 16px;
     text-indent: 21px;
     width: 506px;
     height: 68px;
@@ -390,7 +373,6 @@ footer {
     display: flex;
     justify-content: center;
     margin-left: 24px;
-    border-radius: 16px;
     background-color: #CEAAFF;
     color: #10151A;
     font-size: 20px;
@@ -405,8 +387,6 @@ footer {
 /* Container for press section */
 .section-seven {
     margin-top: 140px;
-    margin-bottom: 210px;
-    width: 1140px;
     height: 494px;
 }
 
@@ -420,7 +400,6 @@ footer {
 
 /* Section title text */
 .section-seven-title-style {
-    font-size: 54px;
 }
 
 /* Decorative star image in title */
@@ -444,7 +423,6 @@ footer {
 /* Container for press article cards */
 .section-seven-items {
     gap: 28px;
-    width: 1141px;
     height: 382px;
 }
 
@@ -459,7 +437,6 @@ footer {
 /* Individual press article card */
 .section-seven-item-style {
     justify-content: space-between;
-    border-radius: 20px;
     width: 361px;
     height: 382px;
 }
@@ -506,7 +483,6 @@ footer {
 .section-eight-item-style {
     justify-content: space-between;
     background-color: #121E28;
-    border-radius: 20px;
     width: 361px;
     height: 382px;
 }
@@ -524,7 +500,6 @@ footer {
 /* Container for podcast cards */
 .section-eight-items {
     gap: 28px;
-    width: 1141px;
     height: 382px;
 }
 
@@ -573,8 +548,6 @@ footer {
 /* Container for contact CTA */
 .section-nine {
     justify-content: space-between;
-    margin-bottom: 200px;
-    width: 1140px;
     height: 306px;
 }
 
@@ -596,7 +569,6 @@ footer {
 .telegram-button {
     background-color: #FFC803;
     box-shadow: 0px 4px 12px 0px rgba(255, 200, 3, 0.3);
-    border-radius: 16px;
     width: 280px;
     height: 84px;
 }
@@ -612,7 +584,6 @@ footer {
 .email-button {
     background-color: #E2C1F9;
     box-shadow: 0px 4px 12px 0px rgba(226, 193, 249, 0.3);
-    border-radius: 16px;
     width: 280px;
     height: 84px;
 }
@@ -635,20 +606,17 @@ footer {
 /* Container for about/team section */
 .about-section {
     margin-top: 91px;
-    width: 1140px;
     height: 529px;
 }
 
 /* About section title */
 .about-section-title {
     margin-bottom: 115px;
-    font-size: 54px;
 }
 
 /* Container for team member cards */
 .about-section-herobox {
     justify-content: space-between;
-    width: 1140px;
     height: 334px;
 }
 
@@ -656,7 +624,6 @@ footer {
 .about-section-herobox-style {
     justify-content: space-between;
     background-color: #FFB4D3;
-    border-radius: 20px;
     width: 352px;
     height: 334px;
 }
@@ -691,7 +658,6 @@ footer {
 /* Container for contact form - dark background */
 .contact-form-section {
     background-color: #121E28;
-    border-radius: 30px;
     margin-bottom: 359px;
     width: 942px;
     height: fit-content;
@@ -720,7 +686,6 @@ footer {
 /* Shared styling for text inputs */
 .contact-input-style {
     background-color: #121E28;
-    border-radius: 16px;
     text-indent: 28px;
     font-size: 20px;
     width: 506px;
@@ -735,7 +700,6 @@ footer {
 /* Textarea (message field) styling */
 .contact-textarea-style {
     background-color: #121E28;
-    border-radius: 16px;
     text-indent: 28px;
     padding-top: 21px;
     font-size: 20px;
@@ -751,7 +715,6 @@ footer {
 /* Select dropdown styling */
 .contact-select-style {
     background-color: #121E28;
-    border-radius: 16px;
     text-indent: 16px;
     font-size: 20px;
     width: 506px;
@@ -773,7 +736,6 @@ select option {
     font-size: 20px;
     margin-top: 43px;
     margin-bottom: 28px;
-    border-radius: 16px;
     width: 175px;
     height: 68px;
 }
@@ -804,6 +766,85 @@ select option {
 /* Legal link - yellow accent */
 .legal {
     color: #FFC803;
+}
+
+/* ============================================
+   COMMON PROPERTY GROUPS - DRY CONSOLIDATION
+   ============================================ */
+
+/* Standard content width - 1140px for main sections */
+.section-two,
+.section-three,
+.section-three-title,
+.section-four,
+.section-five,
+.section-six,
+.section-seven,
+.section-eight-items,
+.section-seven-items,
+.section-nine,
+.about-section,
+.about-section-herobox {
+    width: 1140px;
+}
+
+/* Standard section bottom spacing - 200px */
+.section-two,
+.section-three,
+.section-seven,
+.section-nine {
+    margin-bottom: 200px;
+}
+
+/* Standard section title size - 54px (applies to all main section titles) */
+.section-two-title,
+.section-four-title,
+.section-five-title,
+.section-six-title,
+.section-seven-title-style,
+.about-section-title {
+    font-size: 54px;
+}
+
+/* Standard border radius - 16px (buttons and inputs) */
+.button-get-started,
+.section-six-email-input,
+.section-six-submit-button,
+.contact-input-style,
+.contact-textarea-style,
+.contact-select-style,
+.contact-send-button,
+.telegram-button,
+.email-button {
+    border-radius: 16px;
+}
+
+/* Standard border radius - 20px (cards) */
+.section-seven-item-style,
+.section-eight-item-style,
+.about-section-herobox-style {
+    border-radius: 20px;
+}
+
+/* Standard border radius - 30px (large containers) */
+.gamebox,
+.gamebox-img,
+.section-six,
+.contact-form-section {
+    border-radius: 30px;
+}
+
+/* Standard border radius - 40px (medium rounded) */
+.section-five-img-style,
+.hero-img,
+.section-four-block-style {
+    border-radius: 40px;
+}
+
+/* Standard border radius - 100px (pill shaped) */
+.dao-tag-style,
+.gamebox-subtext {
+    border-radius: 100px;
 }
 
 /* ============================================
@@ -846,33 +887,6 @@ select option {
 
 /* Reset browser default styles for form elements */
 .ignore-parent-style { border: none; outline: none; resize: none; }
-
-/* ============================================
-   COMMON SIZES & SPACING UTILITIES
-   ============================================ */
-
-/* Standard section width for main content */
-.section-width { width: 1140px; }
-
-/* Standard section title size - used across multiple sections */
-.section-title-size { font-size: 54px; }
-
-/* Common rounded corners */
-.rounded-lg { border-radius: 30px; }
-.rounded-md { border-radius: 20px; }
-.rounded-sm { border-radius: 16px; }
-.rounded-xs { border-radius: 8px; }
-.rounded-full { border-radius: 100px; }
-.rounded-xl { border-radius: 40px; }
-
-/* Standard button sizing - 68px height buttons */
-.btn-height { height: 68px; }
-
-/* Standard input styling */
-.input-height { height: 68px; }
-
-/* Common section spacing */
-.section-spacing { margin-bottom: 200px; }
 
 /* ============================================
    COLOR UTILITIES
