@@ -296,18 +296,10 @@ footer {
     background-color: #121E28;
 }
 
-/* ============================================
-   SECTION FIVE - HELP & SUPPORT
-   ============================================ */
-
 /* Container for help section */
 .section-five {
     margin-top: 200px;
     height: 590px;
-}
-
-/* Section title */
-.section-five-title {
 }
 
 /* Container for team/help images */
@@ -396,10 +388,6 @@ footer {
     margin-bottom: 32px;
     width: 100%;
     height: auto;
-}
-
-/* Section title text */
-.section-seven-title-style {
 }
 
 /* Decorative star image in title */
